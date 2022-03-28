@@ -20,7 +20,7 @@ public class NPCBehavior : MonoBehaviour
         {
             if (movingRight == true)
             {
-                transform.eulerAngles = new Vector3(0, -100, 0);
+                transform.eulerAngles = new Vector3(0, -180, 0);
                 movingRight = false;
             }
             else
