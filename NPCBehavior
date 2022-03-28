@@ -12,7 +12,6 @@ public class NPCBehavior : MonoBehaviour
     public Transform groundDetection;
     //public Transform wallDetection;
 
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
